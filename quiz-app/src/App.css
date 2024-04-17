@@ -1,0 +1,56 @@
+/* App.css */
+body {
+  background-color: #f2f2f2; /* Light gray background color */
+}
+/* Add styles to make the quiz app container centered */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style for the quiz container */
+.quiz-container {
+  max-width: 600px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the question */
+.question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Style for the options container */
+.options-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for the option buttons */
+.options-container button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.options-container button:hover {
+  background-color: #256ba1;
+}
+
+/* App.css */
+body {
+  background-image: url('https://i.pinimg.com/originals/db/34/d4/db34d40b271fb59477621550bf73ea0b.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
